@@ -1,0 +1,26 @@
+*{
+    /* padding: 0;
+    margin: 0; */
+}
+body{
+    background-color: #464646;
+    background-position: center center;
+}
+#logo{
+    width: 100px;
+    height: 100px;
+}
+.main-div{
+    width:auto;
+    margin-top:  20px;
+    align-content: center;
+    justify-content: center;
+    
+}
+.insider{
+    width: 300px;
+    height: 500px;
+    border: 2px solid black;
+    background-color: rgba(255, 255, 255, 0.082);
+}
+

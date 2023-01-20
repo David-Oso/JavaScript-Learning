@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phonie</title>
+    <link rel="stylesheet" href="./phonie.css">
+</head>
+<body>
+
+    <div class="main-div">
+        <div class="insider">
+            <div class="one-line">
+                <div class="one-half">
+                    <p id="newtwork"></p>
+                    <img src="" alt="" id="logo">
+                </div>
+                <div class="two-half">
+                    <p class="ask-firstName">Enter First Name: </p>
+                    <input type="text" class="firstName" id="first-name" placeholder="Enter firsrt name: ", required>
+
+                    <p class="ask-lastname">Enter Last Name: </p>
+                    <input type="text" class="lastName" id="last-name" placeholder="Enter last name: ", required>
+
+                    <p class="ask-phone">Enter Phone Number: </p>
+                    <input type="number" class="comm" id="phoneNumber" minlength="4" maxlength="15" placeholder="Phone number: " required>
+                </div>
+            </div>
+            <button id="submit">Submit</button>
+            <p id="result"></p>
+        </div>
+    </div>
+
+
+    <script src="./phonie.js" defer></script>
+</body>
+</html>
