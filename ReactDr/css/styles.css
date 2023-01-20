@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(243, 212, 134);
+}
+.comment-secton{
+    display: flex;
+    justify-content: space-between;
+    justify-items: end;
+}
+.like-button, .comment-secton, .submit-button{
+    border-radius: 10px;
+    border-color: rgb(138, 99, 0);
+    background-color: rgb(252, 210, 205);
+    column-rule: brown;
+}
+.like-button, .submit-button{
+    width: 100px;
+}
